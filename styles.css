@@ -1,10 +1,100 @@
+body {
+    background-color: #e9edc9;
+    font-family:"Amatic SC";
+}
+
 #profilepic {
-    width: 10%;
-    height: 5%;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
 }
 
 #img1 {
-    width: 50%;
+    width: 80%;
     height: auto;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar-list {
+    /*position: fixed;*/
+    display: inline-block;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.navItem {
+    float: left;
+    padding: 20px;
+}
+
+.navLink {
+    display: block;
+}
+
+#coopNavBar {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#leftCol {
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+#rightCol {
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+    #wrapper {
+        display: block;
+    }
+
+    #left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #right {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
