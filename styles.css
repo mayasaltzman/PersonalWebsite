@@ -5,12 +5,12 @@ body {
     margin: 0;
 }
 
-h1{
+h1 {
     color: #588157;
     font-size: 50px;
 }
 
-h2{
+h2 {
     color: #588157;
     font-size: 30px;
 }
@@ -21,6 +21,10 @@ h2{
     border-radius: 50%;
     border: 5px solid transparent;
     border-color: #ccd5ae;
+}
+
+#profilepic:hover{
+    border-color: #b4bc99;
 }
 
 #img1 {
@@ -51,7 +55,42 @@ h2{
     display: block;
     text-decoration: none;
     color: #588157;
-    font-size: 25px;
+    padding: 20px 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    display: block;
+    background: #faedcd;
+    text-decoration: none;
+    color: #588157;
+    font-size: 20px;
+
+
+}
+
+.dropdown li a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    width: 7%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.navItem:hover .dropdown {
+    display: block;
 }
 
 
