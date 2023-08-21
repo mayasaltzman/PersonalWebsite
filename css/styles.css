@@ -34,7 +34,6 @@ h2 {
 }
 
 #navbar {
-    text-align: center;
     background-color: #faedcd;
 }
 
@@ -55,7 +54,7 @@ h2 {
     display: block;
     text-decoration: none;
     color: #588157;
-    padding: 20px 25px;
+    padding: 20px 45px;
     font-size: 30px;
     text-align: center;
 }
