@@ -75,6 +75,67 @@ h2 {
     text-decoration: none;
     color: #588157;
     font-size: 20px;
+}
+
+.dropdown li a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    width: 7%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.navItem:hover .dropdown {
+    display: block;
+}
+
+/* nav bar styling ends here */
+
+
+/* nav bar styling starts here */
+/* #navbar {
+    background-color: #faedcd;
+}
+
+#navbar-list {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.navItem {
+    float: left;
+    padding: 20px;
+}
+
+.navLink {
+    display: block;
+    text-decoration: none;
+    color: #588157;
+    padding: 20px 45px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    display: block;
+    background: #faedcd;
+    text-decoration: none;
+    color: #588157;
+    font-size: 20px;
 
 
 }
@@ -94,7 +155,7 @@ h2 {
     display: block;
 }
 
-/* nav bar styling ends here */
+nav bar styling ends here */
 
 
 /* creating column layout starts here */
