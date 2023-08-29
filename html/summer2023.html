@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery lib -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+    <!-- other files -->
     <script src="../scripts/summer2023.js"></script>
     <link rel="stylesheet" href="/css/summer2023.css">
+    <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Slab">
     <title>Summer 2023</title>
 </head>
 
 <body>
+    <!-- navbar -->
     <div id="navbar">
         <ul id="navbar-list">
             <li class="navItem">
                 <a class="navLink" href="index.html">Home</a>
             </li>
+            <!-- drop down nav for coop terms -->
             <li class="navItem">
                 <a class="navLink">Co-op Work Terms</a>
                 <ul class="dropdown">
@@ -27,13 +32,16 @@
                 </ul>
             </li>
             <li class="navItem">
+                <!-- displays resume -->
                 <a class="navLink" href="../resume/Maya-Saltzman-Resume-2023 copy.pdf">Resume</a>
             </li>
         </ul>
     </div>
+    <!-- summer 2023 term info -->
     <div id="header">
         <h1>Summer 2023</h1>
     </div>
+    <!-- button menu to show different parts of the reflection -->
     <div id="menu">
         <button id="intro">Introduction</button>
         <button id="about">About Employer</button>
@@ -42,8 +50,12 @@
         <button id="ca">Conclusion + Acknowledgments</button>
     </div>
 
+    <!-- wrapper for column layout -->
     <div id="wrapper">
+        <!-- left col has text -->
+        <!-- most divs are empy, jquery will fill them with next on button click -->
         <div id="leftCol">
+            <!-- intro -->
             <div id="introText">
                 <h2>Introduction</h2>
                 <p id="i1">While pursuing my degree in Computer Science I have developed an interest in databases and
@@ -66,6 +78,7 @@
                 <!-- <img class="iimg" src="../summer2023imgs/images.png" alt="">
         <img class="iimg" src="../summer2023imgs/CFT_Logo.png" alt=""> -->
             </div>
+            <!-- about -->
             <div id="aboutText">
                 <h2 id="h2a"></h2>
                 <p id="a1"></p>
@@ -73,6 +86,7 @@
                 <p id="a3"></p>
                 <div id="aimg"></div>
             </div>
+            <!-- description -->
             <div id="descriptionText">
                 <h2 id="h2d"></h2>
                 <p id="d1"></p>
@@ -81,7 +95,7 @@
                 <p id="d4"></p>
 
             </div>
-
+            <!-- goals -->
             <div id="goalsText">
                 <h2 id="h2g"></h2>
                 <p id="g1"></p>
@@ -91,7 +105,7 @@
                 <p id="g5"></p>
                 <p id="g6"></p>
             </div>
-
+            <!-- conclusion and acknowledgments -->
             <div id="caText">
                 <h2 id="h2ca"></h2>
                 <p id="ca1"></p>
@@ -100,6 +114,7 @@
             </div>
         </div>
 
+        <!-- right col has imgs -->
         <div id="rightcol"></div>
     </div>
 

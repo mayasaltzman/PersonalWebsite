@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+/* nav bar styling starts here */
 #navbar {
     background-color: #faedcd;
 }
@@ -62,6 +63,8 @@ body {
     display: block;
 }
 
+/* nav bar styling ends here */
+
 #header {
     text-align: center;
 }
@@ -71,6 +74,7 @@ body {
     font-size: 50px;
 }
 
+/* button menu styling starts here */
 #menu {
     text-align: center;
 }
@@ -85,15 +89,15 @@ body {
     color: #588157;
 }
 
-#main {
-    justify-content: center;
-}
 
 #menu button:hover {
     color: #405f40;
     text-decoration: underline;
 }
 
+/* button menu styling ends here */
+
+/* column formatting  */
 #wrapper {
     display: flex;
 }
@@ -121,3 +125,5 @@ body {
     text-align: center;
     justify-self: center;
 }
+
+/* column formatting  */
