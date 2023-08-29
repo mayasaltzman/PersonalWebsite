@@ -92,3 +92,11 @@ body {
     color: #405f40;
     text-decoration: underline;
 }
+
+#introText {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 1500px;
+}

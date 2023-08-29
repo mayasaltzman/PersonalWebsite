@@ -70,6 +70,8 @@ $(document).ready(
                 $("#h2ca").text("Conclusion + Acknowledgments");
                 $("#ca1").text("I would like to thank my supervisor Daniel Kostevskii for supporting me throughout the work term. As well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment. That wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in person social events despite the remote work environment. ")
                 $("#ca2").text("Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!")
+                // $("#caimg").append('<img src="../summer2023imgs/IMG_0364.PNG" alt=""></img>')
+                // $("#caimg").empty().append('<img src="../summer2023imgs/IMG_0631.PNG" alt=""></img>')
             }
         );
     }
