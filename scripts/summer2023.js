@@ -9,6 +9,8 @@ $(document).ready(
                 $('#descriptionText').hide();
                 $('#goalsText').hide();
                 $('#caText').hide();
+                $('#aimg').hide();
+
             }
         );
         //showing about text when button is clicked
@@ -24,8 +26,18 @@ $(document).ready(
                 $("#a1").text("Kenna is a marketing solutions provider specializing in customer experience management. Founded in 1985 as AppliCan Marketing and rebranded as Kenna 2002. For over three decades Kenna has provided their clients data driven solutions and software with an emphasis on customer first thinking. ");
                 $("#a2").text("Today Kenna works with BASF to create software for clients. For the past two decades Kenna has helped BASF build loyal customer relationships which have increased market success. This is done by gaining the trust of growers through their experience with the brand.");
                 $("#a3").text("The current CEO of Kenna is Jeffery Bowles and Kenna’s team continues to grow alongside BASF to better provide them solutions.");
-                $("#aimg").empty().append('<img src="../summer2023imgs/Screenshot 2023-08-29 at 11.45.31 AM.png" alt=""></img>')
 
+                //appending image
+                var imageUrl = "../summer2023imgs/Screenshot 2023-08-29 at 11.45.31 AM.png";
+                var $image = $('<img>').attr('src', imageUrl).attr('alt', '').addClass('appended-image');
+                $('#aimg').empty().append($image);
+
+                // Resize the appended image
+                $image.css({
+                    'width': '500px',
+                    'height': '400px',
+                    'padding-top': '150px'
+                });
             }
         );
         //showing description text when button is clicked
@@ -36,6 +48,8 @@ $(document).ready(
                 $('#descriptionText').show();
                 $('#goalsText').hide();
                 $('#caText').hide();
+                $('#aimg').hide();
+                $('#cft').hide();
                 $("#h2d").text("Job Description");
                 $("#d1").text("As a Data Management Assistant I worked for Data Solutions under the Data Management Team. My tasks differed from day to day but these were a few of my main responsibilities:");
                 $("#d2").text("Through the work term I performed QA and software testing when needed. I worked on 5 applications to ensure 99% accuracy. I used SQL, Excel, and IBM Notes to help me with the QA process. I learned about the software development life cycle and how an application goes from development to testing/staging to production.");
@@ -51,6 +65,8 @@ $(document).ready(
                 $('#descriptionText').hide();
                 $('#goalsText').show();
                 $('#caText').hide();
+                $('#aimg').hide();
+                $('#cft').hide();
                 $("#h2g").text("Goals");
                 $("#g1").text("1) Improve my written communication skills so that I can converse effectively in a professional manner.")
                 $("#g2").text("One thing I was nervous about going into my work term was my ability to communicate professionally. 	Not only did my written communication skills improve but my confidence in my ability to communicate has increased tremendously. I don't second guess myself when sending emails or Teams messages and I feel comfortable reaching out. I notice this confidence that I have learned continuing in my life outside of work. When sending emails related to school or extracurriculars I can do so with ease, and I have lost all the nervousness surrounding written communication that I had in the past. My supervisor even noted that one of my skills is my ability to communicate. This assured me that I was successful in achieving my goal.")
@@ -69,6 +85,8 @@ $(document).ready(
                 $('#descriptionText').hide();
                 $('#goalsText').hide();
                 $('#caText').show();
+                $('#aimg').hide();
+                $('#cft').hide();
                 $("#h2ca").text("Conclusion + Acknowledgments");
                 $("#ca1").text("I would like to thank my supervisor Daniel Kostevskii for supporting me throughout the work term. As well as everyone on the Data Management team for being so open and welcoming. All my team members were always there to provide me support and answer any questions. I would like to thank Kenna for fostering such a positive work environment. That wouldn’t be the same without all the amazing people that work there. One of the best things about working at Kenna was the company culture and I would like to thank all the people that planned in person social events despite the remote work environment. ")
                 $("#ca2").text("Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!")
