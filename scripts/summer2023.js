@@ -4,6 +4,7 @@ $(document).ready(
         $("#intro").click(
             function (e) {
                 $('#introText').show();
+                $('#cft').show();
                 $('#aboutText').hide();
                 $('#descriptionText').hide();
                 $('#goalsText').hide();
@@ -18,6 +19,7 @@ $(document).ready(
                 $('#descriptionText').hide();
                 $('#goalsText').hide();
                 $('#caText').hide();
+                $('#cft').hide();
                 $("#h2a").text("About Employer");
                 $("#a1").text("Kenna is a marketing solutions provider specializing in customer experience management. Founded in 1985 as AppliCan Marketing and rebranded as Kenna 2002. For over three decades Kenna has provided their clients data driven solutions and software with an emphasis on customer first thinking. ");
                 $("#a2").text("Today Kenna works with BASF to create software for clients. For the past two decades Kenna has helped BASF build loyal customer relationships which have increased market success. This is done by gaining the trust of growers through their experience with the brand.");

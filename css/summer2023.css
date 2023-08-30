@@ -5,6 +5,22 @@ body {
     margin: 0;
 }
 
+/* styling header starts here */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kennaLogo {
+    width: 140px;
+    padding-left: 20px;
+}
+
+/* styling header ends here */
+
+
+
 /* nav bar styling starts here */
 #navbar {
     background-color: #faedcd;
@@ -124,6 +140,11 @@ body {
     padding: 50px;
     text-align: center;
     justify-self: center;
+}
+
+#cft{
+    width: 480px;
+    padding-top: 150px;
 }
 
 /* column formatting  */
