@@ -102,6 +102,8 @@ $(document).ready(
                 $("#g5").text("3) Improve my quantitative literacy to improve my QA skills")
                 $("#g6").text("As I began my work term doing QA was the part of my job I was most excited for. Performing QA allowed me to look at the testing aspect of the software development life cycle. The improvement of my Excel skills helped improve my quantitative literacy. Being proficient in Excel helped with my QA methods and my understanding of data points. Additionally, each day I did a sweep of certain tools to determine if there were any bugs. This involved comparing data points. I was able to spot bugs so fixes could be implemented to the software. My ability to spot these bugs assured me that I did indeed improve when it comes to quantitative literacy. I still do ask a lot of questions regarding data sets but with each question I continue to learn.")
             }
+
+
         );
 
         //showing conclusion and acknowledgements text when button is clicked
