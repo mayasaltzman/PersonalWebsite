@@ -35,7 +35,7 @@ $(document).ready(
                 $("#a3").text("The current CEO of Kenna is Jeffery Bowles and Kenna’s team continues to grow alongside BASF to better provide them solutions.");
 
                 //appending image
-                var imageUrl = "../summer2023imgs/Screenshot 2023-08-29 at 11.45.31 AM.png";
+                var imageUrl = "summer2023imgs/Screenshot 2023-08-29 at 11.45.31 AM.png";
                 var $image = $('<img>').attr('src', imageUrl).attr('alt', '').addClass('appended-image');
                 $('#aimg').empty().append($image);
 
@@ -67,7 +67,7 @@ $(document).ready(
                 $("#d4").text("I helped create a database dictionary for employee training. I wrote SQL queries to access data related to data points and calculations for specific applications. This taught me more about the contents of the applications I had been working on. The database dictionary will be a helpful tool for future Kenna employees and I am glad that I got to make an impact to help the company.");
 
                 //appending image
-                var imageUrl = "../summer2023imgs/Quality-Assurance-vs-Quality-Control.png";
+                var imageUrl = "summer2023imgs/Quality-Assurance-vs-Quality-Control.png";
                 var $image = $('<img>').attr('src', imageUrl).attr('alt', '').addClass('appended-image');
                 $('#dimg').empty().append($image);
 
@@ -124,7 +124,7 @@ $(document).ready(
                 $("#ca2").text("Working at Kenna was an amazing experience. I was able to learn a lot about the software development process and view software in a different light. I truly understand the importance of the user's experience thanks to all the QA and software testing I have done. I made so many amazing connections and I look forward to returning to Kenna for my next work term in the Fall!")
 
                 //appending image1
-                var imageUrl1 = "../summer2023imgs/IMG_0364.jpg";
+                var imageUrl1 = "summer2023imgs/IMG_0364.jpg";
                 var $image1 = $('<img>').attr('src', imageUrl1).attr('alt', '').addClass('appended-image');
                 $('#caimg1').empty().append($image1);
 
@@ -136,7 +136,7 @@ $(document).ready(
                 });
 
                 //appending image2
-                var imageUrl2 = "../summer2023imgs/MicrosoftTeams-image (1).png";
+                var imageUrl2 = "summer2023imgs/MicrosoftTeams-image (1).png";
                 var $image2 = $('<img>').attr('src', imageUrl2).attr('alt', '').addClass('appended-image');
                 $('#caimg2').empty().append($image2);
 
