@@ -148,4 +148,19 @@ body {
     padding-top: 150px;
 }
 
-/* column formatting  */
+/* collapses columns when screen shrinks */
+@media only screen and (max-width: 640px) {
+    #wrapper {
+        display: block;
+    }
+
+    #left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #right {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
