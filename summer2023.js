@@ -149,7 +149,7 @@ $(document).ready(
 
                 // Resize the appended image
                 $image1.css({
-                    'width': '400px',
+                    'width': '350px',
                     'height': '300px',
                     'padding-top': '50px'
                 });
@@ -161,7 +161,7 @@ $(document).ready(
 
                 // Resize the appended image
                 $image2.css({
-                    'width': '400px',
+                    'width': '350px',
                     'height': '300px',
                     'padding-top': '10px'
                 });
