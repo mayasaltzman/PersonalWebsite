@@ -104,6 +104,10 @@ h2 {
     display: block;
 }
 
+.navItem:active .dropdown {
+    display: block;
+}
+
 /* creating column layout starts here */
 #wrapper {
     display: flex;
