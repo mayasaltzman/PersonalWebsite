@@ -100,13 +100,15 @@ h2 {
     display: none;
 }
 
+.navItem:active .dropdown {
+    display: block;
+}
+
 .navItem:hover .dropdown {
     display: block;
 }
 
-.navItem:active .dropdown {
-    display: block;
-}
+
 
 /* creating column layout starts here */
 #wrapper {
