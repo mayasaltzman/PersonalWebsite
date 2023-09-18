@@ -100,13 +100,14 @@ h2 {
     display: none;
 }
 
+.navItem:hover .dropdown,
 .navItem:active .dropdown {
     display: block;
 }
 
-.navItem:hover .dropdown {
+/* .navItem:hover .dropdown {
     display: block;
-}
+} */
 
 
 
